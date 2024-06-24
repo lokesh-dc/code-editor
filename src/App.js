@@ -1,10 +1,10 @@
-import logo from "./logo.svg";
 import "./App.css";
+import EditorContainer from "./Container";
 
 function App() {
 	return (
 		<div className="App">
-			<div>sdkns</div>
+			<EditorContainer />
 		</div>
 	);
 }
