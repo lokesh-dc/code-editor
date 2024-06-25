@@ -46,6 +46,7 @@ export default function Editor({ title, language, value, changeEvent }) {
 					selfClosingTags: true,
 				}}
 				onBeforeChange={(editor, data, value) => {
+					console.log({ value, editor, data });
 					changeEvent(value);
 				}}
 			/>
