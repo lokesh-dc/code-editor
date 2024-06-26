@@ -1,3 +1,15 @@
+.documentTitle {
+    background-color: black;
+    color: white;
+    padding: 20px 20px 0 20px;
+}
+
+.documentTitle .titleSection {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
 body,
 * {
     margin: 0;
