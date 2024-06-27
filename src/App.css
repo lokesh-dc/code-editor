@@ -38,7 +38,6 @@ body,
     overflow: scroll !important;
 }
 
-.react-codemirror2 .CodeMirror:first-child {
+/* .react-codemirror2 .CodeMirror:first-child {
     display: none !important;
-    /* border: 1px solid red; */
-}
+} */
